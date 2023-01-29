@@ -17,13 +17,13 @@ console.log(chorock);
 // const colorOfSky: Color.Blue = Color.Green;
 //- 타입이 일치하지 않아서 에러 발생
 
-// const faveColor : Color = "Red";
+// const favoColor : Color = "Red";
 //- enum 타입으로 선언한 상수에는 문자열을 할당할 수 없음
 
 //* 타입캐스트
 
 //? 하지만 as 를 사용해 타입캐스트를 해줄 수 있음
-const faverColor: Color = "Red" as Color;
+const favorColor: Color = "Red" as Color;
 //- "Red" 가 Color 타입으로 변장 되어 에러 없이 컴파일됨
 
 //! 문제점

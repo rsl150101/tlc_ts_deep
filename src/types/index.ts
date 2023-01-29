@@ -49,3 +49,22 @@ export interface Order {
   buyer: string;
   orderStatus: Status;
 }
+
+export interface IToppings {
+  tomatoes: boolean;
+  onion: boolean;
+  lettuce: boolean;
+  ketchup: boolean;
+}
+
+export interface IBubbleTeaOrder {
+  tea: boolean;
+  straw?: boolean;
+}
+
+export interface IBankAccount {
+  accountNumber: string;
+  balance: bigint;
+}
+
+export type TMyPet = "dog" | "cat" | "alpaca";

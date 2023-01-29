@@ -47,6 +47,65 @@
   - #### 클래스에서 제네릭 타입
     실습파일 : [classes.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/generics/classes.ts)
 
+## Ⅲ. Utility Types (유틸리티 타입)
+
+> TS 에서는 유저가 유용하게 쓸 수 있는 유틸리티 타입을 제공해줌<br>
+> 외부 라이브러리에서 불러오는 타입이나 import 해올 수 없는 타입들을 조작하여 우리가 원하는 타입을 변환 시키는데 유용함
+
+- ### Partial\<Type>
+
+  > 특정 타입에 속해있는 집합을 모두 선택적으로 만드는 타입
+
+  실습파일 : [partial.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/utilities/partial.ts)
+
+- ### Required\<Type>
+
+  > 특정 타입에 속해있는 집합을 모두 필수적으로 만드는 타입
+
+  실습파일 : [required.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/utilities/required.ts)
+
+- ### Readonly\<Type>
+
+  > 특정 타입에 속해있는 집합을 모두 읽기 권한으로 만드는 타입
+
+  실습파일 : [readonly.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/utilities/readonly.ts)
+
+- ### Record\<Keys, Type>
+
+  > 객체 타입을 설립하는데 쓰이는 유틸리티
+
+  실습파일 : [record.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/utilities/record.ts)
+
+- ### Omit\<Type, Keys>
+
+  > 특정 타입에 구성되어있는 속성을 생략시키는 타입
+
+  실습파일 : [omit.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/utilities/omit.ts)
+
+- ### Pick\<Type, Keys>
+
+  > 타입의 특정 속성들만 뽑아쓸 수 있는 타입
+
+  실습파일 : [pick.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/utilities/pick.ts)
+
+- ### Exclude\<UnionType, Members>
+
+  > 유니언 타입에 속해있는 유니언 속성들을 생략시키는 타입
+
+  실습파일 : [exclude.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/utilities/exclude.ts)
+
+- ### Extract\<UnionType, Members>
+
+  > 유니언 타입에 속해있는 유니언 속성들을 가져오는 타입
+
+  실습파일 : [extract.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/utilities/extract.ts)
+
+- ### NonNullable\<Type>
+
+  > 특정 타입에 속해있는 null 또는 undefined 를 생략시키는 타입
+
+  실습파일 : [nonnullable.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/utilities/nonnullable.ts)
+
 ## Ⅳ. Others
 
 > 접근제한자
