@@ -25,6 +25,6 @@
   - #### 객체키값을 enum 으로 설정하기
     실습파일 : [objects.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/enums/objects.ts)
   - #### enum tree-shaking
-    실습파일 : [enums.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/enums/enum_tips.ts)
+    실습파일 : [enum_tips.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/enums/enum_tips.ts)
   - #### enum Tip
-    실습파일 : [enums.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/enums/enum_tips.ts)
+    실습파일 : [enum_tips.ts](https://github.com/rsl150101/tlc_ts_deep/blob/master/src/enums/enum_tips.ts)
