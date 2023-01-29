@@ -22,3 +22,30 @@ export type TThingInLife = {
   colorOfPen: Color;
   keyboardArrow: Direction;
 };
+
+//* 기존의 인터페이스
+export interface MyInterface {
+  value: string | number | string[];
+}
+
+//* 제너릭 인터페이스
+export interface MyInterfaceG<T> {
+  value: T;
+}
+
+export interface User {
+  username: string;
+  password: string;
+}
+
+export enum Status {
+  Initiated = "Initiated",
+  Pending = "Pending",
+  Shipped = "Shipped",
+  Delivered = "Delivered",
+}
+
+export interface Order {
+  buyer: string;
+  orderStatus: Status;
+}

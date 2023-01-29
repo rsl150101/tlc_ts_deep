@@ -1,6 +1,6 @@
-//* enum
+//* enums
 import { Color, Direction } from "../types";
-//* interface
+//* interfaces
 import type { ThingsInLife } from "../types";
 //- 위에서 한번에 import 해와도 되지만 좀 더 명시적으로 작성
 
